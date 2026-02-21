@@ -1,0 +1,31 @@
+# ZHOU WEI Personal Brand Website - Implementation Plan
+
+## 1. Project Initialization [Done]
+- [x] Initialize Next.js 14+ (App Router) with Tailwind CSS, Framer Motion, and Lucide React.
+- [x] Setup `tailwind.config.ts` with the custom color palette and animations.
+- [x] Setup global fonts (Serif and Sans-serif).
+- **Done**: Created package.json, tailwind.config.ts, and app layout with Playfair Display and Inter fonts.
+
+## 2. Core Layout and Components [Done]
+- [x] Create responsive glassmorphism Navbar.
+- [x] Build Hero section with gentle fade-in animation.
+- [x] Create Footer with contact and social links.
+- **Done**: Implemented Navbar with glassmorphism, Hero with fade-in, and Footer with social links.
+
+## 3. The Fluid Journey (Timeline) [Done]
+- [x] Implement the Timeline component using Framer Motion.
+- [x] Add Era 1 (Pre-2019): Finance Professional.
+- [x] Add Era 2 (2019-2021): Yoga Instructor.
+- [x] Add Era 3 (2021-Present): Fruit Retail & Supply Chain Founder.
+- **Done**: Created a responsive Timeline component with 3 eras and smooth scroll animations.
+
+## 4. Insights (Content Feed) [In Progress]
+- [ ] Setup Supabase client logic (Ready for later integration).
+- [x] Build the Insights grid with mock data.
+- [x] Create clean Insight card components.
+- **Done**: Built the Insights section with 3 mock post cards and hover effects.
+
+## 5. Polishing and Animation
+- [ ] Apply slow transitions (duration-700+) globally.
+- [ ] Ensure full responsiveness and mobile optimization.
+- [ ] Final UI check for "Breathable" feel.

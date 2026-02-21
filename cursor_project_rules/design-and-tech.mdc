@@ -1,0 +1,24 @@
+# ZHOU WEI Personal Brand Website - Design & Tech
+
+## Core Identity
+- **ZHOU WEI**: Crossover Explorer (Finance -> Yoga -> Entrepreneur)
+- **Key Message**: "勇于挑战，从0到1，让改变如呼吸般简单。"
+
+## Design Philosophy
+- **Minimalist, Gentle, Fluid, and Breathable (极简温柔风)**.
+- **Palette**: 
+  - Warm Pearl White (`#F9F8F6`) - Background
+  - Charcoal Gray (`#2D2D2D`) - Text
+  - Sage Green (`#A3B18A`) - Accents
+- **Typography**: 
+  - Serif for headings (elegant)
+  - Sans-serif for body (readable)
+- **Feel**: Large border-radius (`rounded-4xl`), soft shadows, plenty of white space. No harsh lines.
+- **Animations**: Slow transitions (`duration-700+`) with `ease-in-out` using `Framer Motion`.
+
+## Tech Stack
+- **Framework**: Next.js 14+ (App Router)
+- **Styling**: Tailwind CSS
+- **Animation**: Framer Motion
+- **Database**: Supabase (for "Insights")
+- **Icons**: Lucide React
