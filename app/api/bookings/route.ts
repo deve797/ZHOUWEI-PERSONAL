@@ -2,6 +2,29 @@ import { NextRequest } from "next/server";
 import { Resend } from "resend";
 import { supabase } from "@/lib/supabase";
 
+export async function GET() {
+  try {
+    const { data, error } = await supabase
+      .from("bookings")
+      .select("*")
+      .order("booking_date", { ascending: false })
+      .order("time_slot", { ascending: true });
+
+    if (error) {
+      console.error("Supabase fetch error:", error);
+      return Response.json({ error: error.message }, { status: 500 });
+    }
+
+    return Response.json({ data });
+  } catch (err) {
+    console.error("Bookings GET error:", err);
+    return Response.json(
+      { error: err instanceof Error ? err.message : "Unexpected error" },
+      { status: 500 }
+    );
+  }
+}
+
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 type BookingBody = {
