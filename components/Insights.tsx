@@ -2,27 +2,8 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
-
-const mockInsights = [
-  {
-    date: "2024-02-15",
-    title: "From Yoga to Supply Chain: Finding Rhythm",
-    category: "Business",
-    excerpt: "The essence of supply chain is flow—and the wisdom of flow was learned in the breath. How do we find spaces to breathe among complex nodes?",
-  },
-  {
-    date: "2024-01-20",
-    title: "Minimalism & Real Business: The Art of Letting Go",
-    category: "Growth",
-    excerpt: "Unnecessary SKUs are like unnecessary emotions in life. Reduce the noise to reveal what truly matters.",
-  },
-  {
-    date: "2023-12-05",
-    title: "The 0 to 1 Challenge: Gentle Persistence",
-    category: "Entrepreneurship",
-    excerpt: "Resilience doesn't mean tension. In real retail, I've learned how to meet the toughest challenges with a gentle stance.",
-  },
-];
+import Link from "next/link";
+import { insights } from "@/lib/insights-data";
 
 export const Insights = () => {
   return (
@@ -46,7 +27,7 @@ export const Insights = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 border-l border-t border-newsprint-ink">
-        {mockInsights.map((item, index) => (
+        {insights.map((item, index) => (
           <motion.div
             key={index}
             initial={{ opacity: 0 }}
@@ -69,9 +50,12 @@ export const Insights = () => {
             <p className="font-body text-newsprint-ink/80 text-sm leading-relaxed mb-6 text-justify">
               {item.excerpt}
             </p>
-            <button className="text-newsprint-ink text-xs font-mono font-bold uppercase tracking-widest border-b-2 border-newsprint-ink pb-1 w-fit hover:text-newsprint-accent hover:border-newsprint-accent transition-all duration-200">
+            <Link
+              href={`/insights/${item.slug}`}
+              className="text-newsprint-ink text-xs font-mono font-bold uppercase tracking-widest border-b-2 border-newsprint-ink pb-1 w-fit hover:text-newsprint-accent hover:border-newsprint-accent transition-all duration-200"
+            >
               Read More
-            </button>
+            </Link>
           </motion.div>
         ))}
       </div>

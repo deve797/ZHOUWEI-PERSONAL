@@ -5,21 +5,21 @@ import { motion } from "framer-motion";
 const timelineData = [
   {
     era: "ERA 1 (Pre-2019)",
-    title: "Finance Professional",
-    description: "Focused on rationality and logic. Finding balance in the complex world of numbers, sharpening analytical thinking and disciplined decision-making.",
-    focus: "Rationality & Logic",
+    title: "Foundation | The Logic of Numbers",
+    description: "Starting as a dedicated accountant, I built my foundation in rigorous logic and cost efficiency. This period shaped my ability to see the underlying data behind every complex phenomenon.",
+    focus: "Logical Thinking & Cost Sensitivity",
   },
   {
     era: "ERA 2 (2019-2021)",
-    title: "Yoga Instructor",
-    description: "Focused on awareness and inner growth. Shifting from external chaos to the breath within, experiencing life's flow and tension on the mat.",
-    focus: "Awareness & Inner Growth",
+    title: "Transition | Inner Stability",
+    description: "As a full-time yoga instructor, I explored the balance between breath and movement. This practice taught me how to remain calm and focused amidst chaos—a quality I now bring to every business decision.",
+    focus: "Mindfulness & Emotional Anchoring",
   },
   {
     era: "ERA 3 (2021-Present)",
-    title: "Fruit Retail & Supply Chain Founder",
-    description: "Focused on building from 0 to 1 with resilience. Rooted in real-world business, navigating supply chain complexity with a minimalist mindset.",
-    focus: "Building from 0 to 1 with Resilience",
+    title: "Present | Scaling Simplicity",
+    description: "Currently leading a fruit retail network of 42 chain stores and an integrated supply chain system. Driven by curiosity, I strive to simplify the complexities of the fresh produce industry through streamlined operations and guidance.",
+    focus: "Simplifying Complexity at Scale",
   },
 ];
 

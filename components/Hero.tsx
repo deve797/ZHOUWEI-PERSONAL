@@ -21,12 +21,12 @@ export const Hero = () => {
           ZHOU WEI
         </h1>
         <h2 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-newsprint-ink mb-8">
-          Let change flow as naturally as breath
+          Driven by Curiosity, Practicing Life.
         </h2>
         <p className="text-base sm:text-lg font-body text-newsprint-ink leading-relaxed max-w-2xl mx-auto mb-12 text-justify">
-          Once danced with numbers, now grounded in breath.
+          Simplifying complex business through a minimalist lens.
           <br />
-          Today I'm building from 0 to 1 in the soil of real-world business.
+          A journey from professional logic to mindful living.
         </p>
 
         <motion.div

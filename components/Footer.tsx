@@ -50,10 +50,12 @@ export const Footer = () => {
           className="flex flex-col items-center text-center"
         >
           <h2 className="text-3xl md:text-4xl font-serif font-black text-newsprint-bg mb-4">
-            Let change flow as naturally as breath.
+            Why I do what I do.
           </h2>
           <p className="text-newsprint-bg/80 mb-12 font-body text-lg">
-            Want to talk business, yoga, or any 0-to-1 challenge?
+            From the precision of accounting to the flow of yoga, and now the grit of the fresh produce industry—my journey is driven by a single force: Curiosity.
+            <br /><br />
+            I don&apos;t just run a business; I practice life through it. Managing 42 stores and a full supply chain is my way of testing how simplicity can thrive in a complex world. I believe in business with warmth, operations with logic, and a life lived with open eyes.
           </p>
 
           <div className="flex items-center justify-center gap-4 mb-16 flex-wrap">
