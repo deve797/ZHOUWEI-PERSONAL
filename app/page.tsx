@@ -2,6 +2,7 @@ import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { Timeline } from "@/components/Timeline";
 import { Insights } from "@/components/Insights";
+import { Gallery } from "@/components/Gallery";
 import { Footer } from "@/components/Footer";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <Timeline />
       <Insights />
+      <Gallery />
       <Footer />
     </main>
   );
